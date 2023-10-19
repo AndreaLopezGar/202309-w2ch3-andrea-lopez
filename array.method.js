@@ -21,5 +21,7 @@ export function arrayPop(array) {
   return array[lastValue];
 }
 
-
- //
+export function arrayShift(array) {
+  const arrayFirstWord = array[0];
+  return arrayFirstWord;
+}
